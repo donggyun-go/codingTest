@@ -10,7 +10,7 @@ public class Ex9184 {
 		 */
 		static int[][][] dp = new int[21][21][21];
 		
-		public static void main(String[] args) {
+		public void main(String[] args) {
 			
 			Scanner in = new Scanner(System.in);		
 			

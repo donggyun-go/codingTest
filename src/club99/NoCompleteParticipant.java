@@ -40,10 +40,14 @@ public class NoCompleteParticipant {
         for (String name : participant) {
             participantMap.put(name, participantMap.getOrDefault(name, 0) + 1);
         }
+        
+        System.out.println(participantMap.toString());
 
         for (String name : completion) {
             participantMap.put(name, participantMap.get(name) - 1);
         }
+        
+        System.out.println(participantMap.toString());
 
         for (Map.Entry<String, Integer> entry : participantMap.entrySet()) {
             if (entry.getValue() > 0) {

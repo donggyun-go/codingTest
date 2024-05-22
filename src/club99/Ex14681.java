@@ -3,7 +3,7 @@ package club99;
 import java.util.Scanner;
 
 public class Ex14681 {
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int x = scan.nextInt();
 		int y = scan.nextInt();
